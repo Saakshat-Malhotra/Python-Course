@@ -1,6 +1,7 @@
 import unittest
 import script
 
+
 class TestMain(unittest.TestCase):
 	def test_do_stuff(self):
 		test_param = 5
@@ -8,7 +9,7 @@ class TestMain(unittest.TestCase):
 		self.assertEqual(result, 10)
 
 	def test_do_stuff2(self):
-		test_param = 'shfkjsd'
+		test_param = 'sam'
 		result = script.do_stuff(test_param)
 		self.assertIsInstance(result, ValueError)
 
